@@ -2,6 +2,8 @@
 
 VERSION='0.98.6'
 
+mkdir -p blobs/clamav
+
 n=0
 until [ $n -ge 5 ]
 do

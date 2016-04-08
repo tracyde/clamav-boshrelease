@@ -1,5 +1,6 @@
 #!/bin/bash
 
+mkdir -p blobs/clamav
 mkdir virus_defs
       
 function download {
