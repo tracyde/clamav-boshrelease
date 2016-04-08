@@ -8,7 +8,7 @@ export HOME=/var/vcap
 export CLAMAV_HOME=/var/vcap/packages/clamav
 export COMPILE_HOME=`pwd`
 
-tar xvzf clamav/virus_defs.tar -C $CLAMAV_HOME
+tar xvzf clamav/virus_defs.tgz -C $CLAMAV_HOME
 
 tar xvzf clamav/clamav-0.98.6.tar.gz
 cd clamav-0.98.6

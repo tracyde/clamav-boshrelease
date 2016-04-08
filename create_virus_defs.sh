@@ -16,5 +16,5 @@ download main.cvd
 download daily.cvd
 download bytecode.cvd
 
-tar -cf blobs/clamav/virus_defs.tar virus_defs
+tar -czf blobs/clamav/virus_defs.tgz virus_defs
 rm -rf virus_defs
