@@ -6,17 +6,15 @@
 .bundle
 .cache
 .dev_builds
-.final_builds/jobs/**/*.tgz
-.final_builds/packages/**/*.tgz
+.final_builds
 .gitreview
 .idea
 config/dev.yml
 config/private.yml
 dev_releases
 output
-releases/*.tgz
+releases
 src_alt
 **/.DS_Store
-releases/**/*.tgz
 .DS_Store
 
