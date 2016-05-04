@@ -58,9 +58,9 @@ fi
 
 if [[ $AGGRESSIVE -eq 1 ]]
 then
-    /var/vcap/packages/clamav/bin/clamscan -ri --exclude-dir=^/sys\|^/proc\|^/dev --remove $SCAN_DIR >> $LOG_FILE
+    /var/vcap/packages/clamav/bin/clamscan -ri --exclude-dir=^/sys\|^/proc\|^/dev --remove --stdout $SCAN_DIR
 else
-    /var/vcap/packages/clamav/bin/clamscan -ri --exclude-dir=^/sys\|^/proc\|^/dev $SCAN_DIR >> $LOG_FILE
+    /var/vcap/packages/clamav/bin/clamscan -ri --exclude-dir=^/sys\|^/proc\|^/dev --stdout $SCAN_DIR
 fi
 
 if [[ $SEND_EMAIL -eq 1 ]]
