@@ -1,2 +1,2 @@
-30 01 * * * test -x /var/vcap/jobs/clamav/bin/clamav_scan.sh && /var/vcap/jobs/clamav/bin/clamav_scan.sh >>/var/vcap/sys/log/clamav/clamav.log 2>&1
+30 01 * * * test -x /var/vcap/jobs/clamav/bin/clamav_scan.sh && /var/vcap/jobs/clamav/bin/clamav_scan.sh | logger -t clamav -p security.alert --stderr >>/var/vcap/sys/log/clamav/clamscan.log 2>&1
 
