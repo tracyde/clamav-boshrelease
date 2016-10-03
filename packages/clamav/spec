@@ -1,5 +1,5 @@
 ---
 name: clamav
 files:
-- clamav/clamav-0.98.6.tar.gz
+- clamav/clamav-0.99.2.tar.gz
 - clamav/virus_defs.tgz

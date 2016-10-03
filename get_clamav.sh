@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION='0.98.6'
+VERSION='0.99.2'
 
 mkdir -p blobs/clamav
 
