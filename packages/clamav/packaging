@@ -11,7 +11,7 @@ export COMPILE_HOME=`pwd`
 tar xvzf clamav/virus_defs.tgz -C $CLAMAV_HOME
 
 tar xvzf clamav/clamav-0.99.2.tar.gz
-cd clamav-0.98.6
+cd clamav-0.99.2
 ./configure --prefix=$CLAMAV_HOME --disable-clamav
 make
 make install
