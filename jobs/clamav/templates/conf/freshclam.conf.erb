@@ -24,6 +24,7 @@ CompressLocalDatabase no
 Bytecode true
 # Check for new database 24 times a day
 Checks 24
+PrivateMirror <%= properties.clamav.pMirror %>
 DatabaseMirror <%= properties.clamav.dbMirror1 %>
 <% if defined? properties.clamav.dbMirror2 %>
 DatabaseMirror <%= properties.clamav.dbMirror2 %>
