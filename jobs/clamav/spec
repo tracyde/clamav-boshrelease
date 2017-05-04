@@ -25,4 +25,8 @@ properties:
   clamav.dbMirror2:
     description: "Secondary virus definition update host"
     default: database.clamav.net
+  clamav.pMirror:
+     description: "If PrivateMirror is set, freshclam does not attempt  to  se  DNS  to  determine  whether  its databases are out-of-date"
+     default: 
+      
 
